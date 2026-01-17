@@ -15,8 +15,8 @@ This project is configured to automatically deploy to Cloudflare Pages when chan
    - Connect your GitHub repository
    - Use these build settings:
      - Build command: (leave empty)
-     - Build output directory: `/`
-     - Root directory: `/`
+     - Build output directory: `.` (current directory)
+     - Root directory: `.` (current directory)
 
 2. **Configure GitHub Secrets:**
    
